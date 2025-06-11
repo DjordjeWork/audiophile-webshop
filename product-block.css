@@ -1,0 +1,229 @@
+.content-wrapper {
+  padding: 64px 24px 120px 24px;
+  margin: 0 auto;
+}
+
+.product-block{
+  margin-bottom: 120px;
+}
+
+
+.product-block__image-wrapper {
+  background-color: var(--very-light-grey);
+  border-radius: 8px;
+  margin-bottom: 32px;
+  aspect-ratio: 1/1;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.product-block__image-box {
+  position: relative;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.product-block__image-box--bigger-image {
+  width: 53%;
+}
+
+.product-block__image {
+  display: block;
+  width: 100%;
+}
+
+.product-block__shadow {
+  background-color: var(--black);
+  width: 120px;
+  height: 30px;
+  border-radius: 50%;
+  opacity: 15%;
+  filter: blur(15px);
+  position: absolute;
+  bottom: -20px;
+  left: calc(50% - 60px);
+}
+
+.product-block__image-desktop {
+  display: none;
+}
+
+.product-block-image-exeption {
+  display: none;
+}
+
+.product-block__description-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  text-align: center;
+  align-items: center;
+}
+
+.product-block__title {
+  font-family: 'Manrope-Regular';
+  font-size: 14px;
+  letter-spacing: 10px;
+  color: var(--orange);
+  text-transform: uppercase;
+}
+
+.product-block__product {
+  font-family: 'Manrope-Bold';
+  font-size: 28px;
+  letter-spacing: 1px;
+  color: var(--black);
+  text-transform: uppercase;
+}
+
+.product-block__description {
+  font-family: 'Manrope-Medium';
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--black);
+  opacity: 50%;
+}
+
+.product-block__button {
+  border: none;
+  background-color: var(--orange);
+  font-family: 'Manrope-Bold';
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: var(--white);
+  padding: 15px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px ) {
+  .content-wrapper {
+    padding: 120px 40px 120px 40px;
+    max-width: 1110px;
+  }
+
+  .product-block {
+    margin-bottom: 120px;
+  }
+
+  .product-block__image-wrapper {
+    aspect-ratio: unset;
+    padding-bottom: 68px;
+  }
+
+  .product-block__image-box {
+    width: 33%;
+  }
+
+  .product-block__description-wrapper {
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: 0px;
+  }
+
+  .product-block__title {
+    margin-bottom: 16px;
+  }
+
+  .product-block__product {
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.43px;
+    margin-bottom: 32px;
+  }
+
+  .product-block__description {
+    margin-bottom: 24px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .content-wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 160px;
+    padding-bottom: 160px ;
+  }
+
+  .product-block__image  {
+    display: none;
+  }
+
+  .product-block {
+    display: flex;
+    margin-bottom: 160px;
+  }
+
+  .product-block__image-wrapper {
+    height: 560px;
+    margin-bottom: 0px;
+    text-align: center;
+    display: flex;
+    align-items: center; 
+  }
+
+  .product-block__image-box {
+    width: unset;
+  }
+
+  .product-block__shadow {
+    display: none;
+  }
+
+  .product-block__image-desktop {
+    display: flex;
+    margin-top: 65px;
+    margin-right: 95px;
+    margin-left: 95px;
+  }
+
+  .product-block__description-wrapper {
+    text-align: left;
+    align-items: baseline;
+    width: 50%;
+    margin: 0%;
+    margin-right: 0%;
+    margin-left: 125px;
+    margin-top: 110px;
+  }
+
+  .product-block__title {
+    margin-bottom: 15px;
+  }
+
+  .product-block__description {
+    margin-bottom: 40px;
+  }
+
+  .product-block__button:hover {
+    background-color: var(--light-orange);
+    cursor: pointer;
+    transition: 400ms;
+  }
+
+  .product-block__reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 160px;
+  }
+
+  .product-block__description-wrapper-reverse {
+    text-align: left;
+    align-items: baseline;
+    width: 50%;
+    margin: 0%;
+    margin-right: 0%;
+    margin-right: 125px;
+    margin-top: 125px;
+  }
+
+  .xx59-wrapper {
+    margin-top: 125px;
+  }
+
+  .product-block-image-exeption {
+    display: flex;
+    margin: 83px;
+  }
+
+}

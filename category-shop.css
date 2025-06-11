@@ -1,0 +1,534 @@
+.category-shop__content-wrapper {
+  padding: 16px 24px 120px;
+}
+
+.category-shop__image-desktop {
+  display: none;
+}
+
+.category-shop__go-back-button {
+  border: none;
+  background-color: transparent;
+  font-family: 'Manrope-Medium';
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--black);
+  opacity: 50%;
+  padding: 0px;
+  text-decoration: none;
+}
+
+.category-shop__image-wrapper {
+  background-color: var(--very-light-grey);
+  border-radius: 8px;
+  aspect-ratio: 1/1;
+  padding-top: 56px;
+  margin-bottom: 32px;
+  margin-top: 25px;
+}
+
+.category-shop__image-box {
+  position: relative;
+  margin: 0 auto;
+  width: 53%;
+}
+
+.category-shop__image {
+  display: block;
+  width: 100%;
+}
+
+.category-shop__image-shadow {
+  background-color: var(--black);
+  width: 120px;
+  height: 30px;
+  border-radius: 50%;
+  opacity: 15%;
+  filter: blur(15px);
+  position: absolute;
+  bottom: -20px;
+  left: calc(50% - 60px);
+}
+
+.category-shop__text-wrapper {
+  display: flex;
+  text-align: left;
+  align-items: baseline;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.category-shop__new-product-title {
+  font-family: 'Manrope-Regular';
+  font-size: 14px;
+  letter-spacing: 10px;
+  color: var(--orange);
+  text-transform: uppercase;
+}
+
+.category-shop__product {
+  font-family: 'Manrope-Bold';
+  font-size: 28px;
+  letter-spacing: 1px;
+  color: var(--black);
+  text-transform: uppercase;
+}
+
+.category-shop__description {
+font-family: 'Manrope-Medium';
+font-size: 15px;
+line-height: 25px;
+color: var(--black);
+opacity: 50%;
+}
+
+.category-shop__price {
+  font-family: 'Manrope-Bold';
+  font-size: 18px;
+  letter-spacing: 1.30px;
+  color: var(--black);
+  margin-bottom: 6px;
+} 
+
+.category-shop__cart {
+  display: flex;
+}
+
+.category-shop__counter-wrapper {
+  display: flex;
+  gap: 20px;
+  background-color: var(--very-light-grey);
+  padding: 15px 30px;
+  margin-right: 15px;
+}
+
+
+.category-shop__counter-button {
+  border: none;
+  background-color: transparent;
+  font-family: 'Manrope-Bold';
+  font-size: 13px;
+  color: var(--black);
+  opacity: 25%;
+}
+
+
+.category-shop__counter-number {
+  font-family: 'Manrope-Bold';
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: var(--black);
+  align-self: center; 
+}
+
+.category-shop__button {
+  border: none;
+  background-color: var(--orange);
+  font-family: 'Manrope-Bold';
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: var(--white);
+  padding: 15px 30px;
+  text-transform: uppercase;
+  opacity: 50%;
+}
+
+.category-shop__features {
+  margin-top: 88px;
+}
+
+.category-shop__features-title {
+  font-family: 'Manrope-Bold';
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.86px;
+  color: var(--black);
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+
+.category-shop__features-paragraph {
+  font-family: 'Manrope-Medium';
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--black);
+  opacity: 50%;
+}
+
+.category-shop__box {
+  margin-top: 88px;
+}
+
+.category-shop__box-title {
+  font-family: 'Manrope-Bold';
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.86px;
+  color: var(--black);
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.category-shop__box-list {
+  font-family: 'Manrope-Medium';
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+}
+
+.category-shop__box-list-number-of-items  {
+  font-family: 'Manrope-Bold';
+  color: var(--orange);
+  margin-right: 24px;
+}
+
+.category-shop__box-list-number-of-items--two-items {
+  margin-right: 21px;
+}
+
+.category-shop__model-product-image-desktop {
+  display: none;
+}
+
+.category-shop__model-product-image-tablet {
+  display: none;
+}
+
+.category-shop__model-product-image {
+  width: 100%;
+}
+
+.category-shop__model-product-wrapper {
+  margin-top: 88px;
+}
+
+.category-shop__model-product-image-wrapper-one, .category-shop__model-product-image-wrapper-two {
+  margin-bottom: 20px;
+}
+
+.category-shop__more-products-image-tablet {
+  display: none;
+}
+
+.category-shop__you-may-also-like-section {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.category-shop__more-products-title {
+  font-family: 'Manrope-Bold';
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.86px;
+  color: var(--black);
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.category-shop__more-products-image-wrapper {
+  background-color: var(--very-light-grey);
+  border-radius: 8px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+  aspect-ratio: 5/2;
+}
+
+.category-shop__more-products-name {
+  font-family: 'Manrope-Bold';
+  font-size: 24px;
+  letter-spacing: 1.71px;
+  color: var(--black);
+  margin-bottom: 32px;
+  text-transform: uppercase;
+
+}
+
+.category-shop__more-products-image-box {
+  width: 23%;
+}
+
+.category-shop__more-products-image {
+  width: 100%;
+}
+
+.category-shop__more-products-button {
+  display: block;
+  text-decoration: none;
+  font-family: 'Manrope-Bold';
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: var(--white);
+  width: 160px;
+  line-height: 48px;
+  background-color: var(--orange);
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.category-shop__more-products-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  text-align: center;
+}
+
+@media (min-width: 768px ) {
+  .category-shop__content-wrapper {
+    padding: 33px 40px 120px;
+    max-width: 1110px;
+    margin: 0 auto;
+  }
+
+  .category-shop {
+    display: flex;
+  }
+
+  .category-shop__text-wrapper {
+    width: 50%;
+    gap: 0px;
+    justify-content: center;
+  }
+
+  .category-shop__image-wrapper {
+    padding-top: 133px;
+    padding-bottom: 145px;
+    margin-bottom: 0px;
+ }
+
+  .category-shop__left-side {
+    width: 50%;
+    padding-right: 70px;
+  }
+
+  .category-shop__new-product-title {
+    margin-bottom: 17px;
+  }
+
+  .category-shop__product, .category-shop__description, .category-shop__price {
+    margin-bottom: 32px;
+  }
+
+  .category-shop__features {
+    margin-top: 120px;
+  }
+
+  .category-shop__features-title {
+    font-size: 32px;
+    letter-spacing: 1.14px;
+  }
+
+  .category-shop__box {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 180px;
+    margin-top: 120px;
+  }
+
+  .category-shop__box-title {
+    font-size: 32px;
+    letter-spacing: 1.14px;
+  }
+
+  .category-shop__model-product-image {
+    display: none;
+  }
+
+  .category-shop__model-product-image-tablet {
+    display: block;
+    width: 100%;
+  }
+  
+  .category-shop__model-product-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+  }
+
+  .category-shop__model-product-image-wrapper-three {
+    width: calc(58% - 9px);
+  }
+
+  .category-shop__model-product-wrapper-left {
+    width: calc(41% - 9px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .category-shop__model-product-image-wrapper-one {
+    margin-bottom: 0;
+  }
+
+  .category-shop__model-product-image-wrapper-two {
+    margin-bottom: 0;
+  }
+
+  .category-shop__more-products-image {
+    display: none;
+  }
+
+  .category-shop__more-products-image-tablet {
+    display: block;
+    width: 100%;
+  }
+
+  .category-shop__more-products-wrapper {
+    flex-direction: row;
+    gap: 11px;
+    justify-content: center;
+  }
+  
+  .category-shop__more-products-image-wrapper {
+    height: unset;
+    aspect-ratio: 2/3;
+  }
+
+  .category-shop__more-products-image-box {
+    position: relative;
+    margin: 0 auto;
+    width: 68%;
+  }
+
+  .category-shop__more-products {
+    width: 100%;
+  }
+
+
+  .category-shop__more-products-title {
+    font-size: 32px;
+    letter-spacing: 1.14px;
+    margin-bottom: 56px;
+  }
+}
+
+@media (min-width: 1200px ) {
+  .category-shop__image {
+    display: none;
+  }
+
+  .category-shop__image-desktop {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .category-shop__content-wrapper  {
+    padding: 80px 0px 160px;
+  }
+
+  .category-shop__image-shadow {
+    width: 250px;
+    height: 55px;
+    left: calc(50% - 125px);
+  }
+
+  .category-shop__left-side {
+    width: 50%;
+    padding-right: 0px;
+  }
+
+
+  .category-shop__image-wrapper {
+    padding-top: 65px;
+    padding-bottom: 108px;
+  }
+
+  .category-shop__image-wrapper--zx9-speaker {
+    padding-top: 100px;
+    padding-bottom: 108px;
+  }
+
+  .category-shop__image-wrapper--yx1-earphones {
+    padding-top: 130px;
+    padding-bottom: 130px;
+  }
+
+  .category-shop__image-box {
+    width: unset;
+  }
+
+  .category-shop__text-wrapper {
+    padding-left: 125px;
+  }
+
+  .category-shop__product {
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.43px;
+  }
+
+  .category-shop__price {
+    margin-bottom: 47px;
+  }
+
+  .category-shop__box {
+    flex-direction: column;
+    padding: 0px;
+    margin-top: 0px;
+    justify-content: unset;
+    min-width: 350px;  
+  }
+
+  .category-shop__features-wrapper {
+    display: flex;
+    margin-top: 160px;
+  }
+
+  .category-shop__features {
+    margin-top: 0px;
+    margin-right: 125px;
+  }
+
+  .category-shop__box-title {
+    margin-bottom: 32px;
+  }
+
+  .category-shop__features-title {
+    margin-bottom: 32px;
+  }
+  
+  .category-shop__model-product-wrapper {
+    margin-top: 160px;
+  }
+  .category-shop__model-product-image-tablet--for-desktop {
+    display: none;
+  }
+
+  .category-shop__model-product-image-desktop {
+    display: block;
+  }
+
+  .category-shop__more-products-title {
+    margin-bottom: 64px;
+  }
+
+  .category-shop__more-products-wrapper {
+    gap: 30px;
+  }
+
+  .category-shop__more-products-image-wrapper {
+    margin-bottom: 40px;
+    aspect-ratio: 1/1;
+  }
+
+  .category-shop__you-may-also-like-section {
+    margin-top: 160px;
+    margin-bottom: 160px;
+  }
+
+  .category-shop__more-products-image-box {
+    width: 41%;
+  }
+
+  .category-shop__more-products-button:hover {
+    background-color: var(--light-orange);
+
+  }
+}

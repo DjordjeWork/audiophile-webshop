@@ -1,0 +1,133 @@
+/* SHOP SECTION MOBILE */
+.shop-block__image-desktop {
+  display: none;
+}
+
+.shop-section--index {
+  margin-top: 90px;
+  margin-bottom: 120px;
+}
+
+.shop-section {
+  padding-top: 52px;
+  margin-bottom: 120px;
+}
+
+.shop-block {
+  height: 165px;
+  background-color: var(--very-light-grey);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 22px;
+  position: relative;
+  margin-bottom: 70px;
+  text-decoration: none;
+}
+
+.shop-block:last-child {
+  margin-bottom: 0;
+}
+
+.shop-block__image {
+  width: 185px;
+  position: absolute;
+  top: -50px;
+}
+
+.shop-block__title {
+  font-family: 'Manrope-Bold';
+  font-size: 15px;
+  letter-spacing: 1.07px;
+  color: var(--black);
+  text-transform: uppercase;
+  margin-bottom: 17px;
+}
+
+.shop-block__button {
+  border: none;
+  background-color: none;
+  font-family: 'Manrope-Bold';
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: var(--black-50);
+  text-transform: uppercase;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .content-wrapper {
+    max-width: 1110px;
+    margin: 0 auto;
+  }
+
+  .shop-section--index {
+    margin-top: 148px;
+    margin-bottom: 96px;
+  }
+
+  .shop-section {
+    display: flex;
+    gap: 10px;
+  }
+
+  .shop-block {
+    flex-grow: 1;
+    flex-basis: 0;
+    margin: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .shop-block__image-desktop {
+    display: flex;
+  }
+
+  .shop-block__image {
+    display: none;
+  }
+
+  .shop-section--index {
+    margin-top: 200px;
+    margin-bottom: 168px;
+  }
+
+  .shop-section {
+    max-width: 1110px;
+    margin-bottom: 160px;
+    gap: 30px;
+  }
+
+  .shop-block {
+    height: 205px;
+    transition: transform .2s;
+  }
+
+  .shop-block:hover {
+    transform: scale(1.01);
+    box-shadow: 
+    4px 4px 4px 4px rgb(0 0 0 / 20%);
+  }
+
+  .shop-block:hover .shop-block__button {
+    cursor: pointer;
+    color: var(--orange);
+    transition: 200ms;
+    opacity: 100%;
+  }
+
+  .shop-block__title {
+    font-size: 18px;
+    letter-spacing: 1.29px;
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+  }
+
+}

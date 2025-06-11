@@ -1,0 +1,71 @@
+.model-section {
+  text-align: center;
+}
+
+.model-section__image {
+  background-image: url(./assets/images/model-image-tablet.png);
+  height: 300px;
+  margin: 0 auto;
+  background-position: center; 
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.model-section__title {
+  font-family: 'Manrope-Bold';
+  font-size: 28px;
+  letter-spacing: 1px;
+  color: var(--black);
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+.model-section__orange-word {
+  color: var(--orange);
+}
+
+.model-section__description {
+  font-family: 'Manrope-Medium';
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--black);
+  opacity: 50%;
+  margin-top: 34px;
+}
+
+@media (min-width: 768px) {
+  .model-section {
+    max-width: 1110px;
+    margin: 0 auto;
+  }
+
+  .model-section__title {
+    font-size: 40px;
+    letter-spacing: 1.43px;
+    line-height: 44px;
+  }
+
+  .model-section__text {
+    padding: 0 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .model-section {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .model-section__image {
+    background-image: url('./assets/images/model-image-desktop.png');
+    height: 590px;
+    width: 540px;
+  }
+
+  .model-section__text {
+    width: 50%;
+    text-align: left;
+    align-content: center;
+    padding-left: 0px;
+  }
+}
